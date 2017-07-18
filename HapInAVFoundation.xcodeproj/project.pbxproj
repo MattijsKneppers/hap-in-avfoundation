@@ -1067,6 +1067,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(TARGET_BUILD_DIR)/usr/local/include\"",
 					"\"$(DSTROOT)/usr/local/include\"",
+					"./external/squish/squish-source",
+					"./external/snappy/snappy-source",
 				);
 				INFOPLIST_FILE = HapInAVFoundation/Info.plist;
 				INSTALL_PATH = "@rpath";
@@ -1092,6 +1094,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(TARGET_BUILD_DIR)/usr/local/include\"",
 					"\"$(DSTROOT)/usr/local/include\"",
+					"./external/squish/squish-source",
+					"./external/snappy/snappy-source",
 				);
 				INFOPLIST_FILE = HapInAVFoundation/Info.plist;
 				INSTALL_PATH = "@rpath";
