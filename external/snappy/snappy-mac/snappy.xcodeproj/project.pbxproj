@@ -133,6 +133,12 @@
 			attributes = {
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Vidvox;
+				TargetAttributes = {
+					E2830FC917E0C43A005E72C3 = {
+						DevelopmentTeam = P92XQLN5T4;
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = E2830FC517E0C43A005E72C3 /* Build configuration list for PBXProject "snappy" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -245,10 +251,13 @@
 		E2830FCF17E0C43A005E72C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P92XQLN5T4;
 				EXECUTABLE_PREFIX = lib;
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -256,10 +265,13 @@
 		E2830FD017E0C43A005E72C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P92XQLN5T4;
 				EXECUTABLE_PREFIX = lib;
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
